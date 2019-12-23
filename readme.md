@@ -37,7 +37,7 @@ Here -r activates the retraining, while -p and -s represents the testing data pe
 - To perform model validation, run the following:
 
 ```
-python main.py -r [-f arg1]
+python main.py -v [-f arg1]
 ```
 
 Where f is an optional input to the number of folds for cross-validation
